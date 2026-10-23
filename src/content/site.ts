@@ -1,6 +1,5 @@
 // Every word on the site lives here.
-// Business data is verbatim from the client. Lines marked "draft" were written for
-// the site and are waiting for the client's confirmation (see CLIENT-QUESTIONS.md).
+// Business data is from the client; the site wording was approved by the client on 2026-10-23.
 
 export type IconName =
   | "burglary"
@@ -28,7 +27,7 @@ export type Service = {
   title: string;
   /** Longer name for headings and page titles. */
   name: string;
-  /** One line, shown in lists and the page hero. Draft until the client confirms. */
+  /** One line, shown in lists and the page hero. */
   short: string;
   note?: string;
   icon: IconName;
@@ -60,7 +59,7 @@ export const site = {
 
   phones: [phone("07030330791"), phone("08024464209")],
   email: "loyalpointconstruction@gmail.com",
-  // From the client, 2026-10-22: "open 24 hours". Treated as every day; confirm.
+  // From the client, 2026-10-22: "open 24 hours" (every day).
   hours: { label: "Open 24 hours", days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] },
   address: {
     street: "8, Oladega Street, off Segun Salau Street",
@@ -95,7 +94,7 @@ export const site = {
     build: { eyebrow: "What We Build", title: ["Made in Ketu.", "Built for Lagos."] },
     process: {
       eyebrow: "How We Work",
-      title: ["From raw steel", "to finished work."], // draft
+      title: ["From raw steel", "to finished work."],
       steps: [
         { key: "measure", title: "Measure", text: "Steel is measured and marked." },
         { key: "cut", title: "Cut", text: "Each length is cut to size." },
@@ -113,7 +112,7 @@ export const site = {
 
   servicesPage: {
     eyebrow: "Services",
-    title: ["Nine services.", "One workshop."], // draft
+    title: ["Nine services.", "One workshop."],
     sub: "Everything we make and fix, from safety doors to the iron work inside your building.",
     noPhotos: (service: string) =>
       `Photos of recent ${service.toLowerCase()} jobs are on the way. Ask on WhatsApp and we'll send you pictures.`,
