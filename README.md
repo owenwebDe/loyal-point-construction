@@ -35,6 +35,15 @@ on samples.
 
 ## Deploy
 
-Pushing to Vercel, or running `npx vercel deploy --prod`, publishes the site. Once a
-domain is connected, set `NEXT_PUBLIC_SITE_URL` to it in Vercel. Canonical links, the
-sitemap and share images all use that value.
+Run `npx vercel deploy --prod` to publish the site to the Vercel project
+`loyal-point-construction`.
+
+## Domain
+
+- **Domain:** `loyalpointconstruction.com.ng`, registered at WhoGoHost (GO54).
+- **Nameservers:** `ns1.vercel-dns.com` and `ns2.vercel-dns.com`, so DNS is managed in
+  Vercel.
+- **www:** `www.` forwards to the bare domain (`next.config.ts`).
+- **Site URL:** canonical links, the sitemap and share images use Vercel's production
+  domain automatically. Set `NEXT_PUBLIC_SITE_URL` only to override it.
+- **Renewal:** yearly at WhoGoHost. Keep auto-renew on.
