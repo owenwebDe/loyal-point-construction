@@ -11,6 +11,17 @@ const nextConfig: NextConfig = {
     qualities: [75],
     minimumCacheTTL: 60 * 60 * 24 * 30,
   },
+  // One address for the site: www. forwards to the bare domain.
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.loyalpointconstruction.com.ng" }],
+        destination: "https://loyalpointconstruction.com.ng/:path*",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
