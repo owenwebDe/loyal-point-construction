@@ -4,7 +4,7 @@ import { AnimatePresence, LazyMotion, domAnimation, m } from "motion/react";
 import { useEffect, useRef } from "react";
 import { Brand } from "@/components/ui/Brand";
 import { Close, Instagram, Phone, Telegram, WhatsApp } from "@/components/ui/Icons";
-import { fullAddress, primaryPhone, site, waLink } from "@/content/site";
+import { fullAddress, telLink, site, waLink } from "@/content/site";
 import { lockScroll } from "@/lib/lenis";
 
 const ease = [0.22, 1, 0.36, 1] as const;
@@ -81,7 +81,7 @@ export function MobileMenu({ open, onClose }: { open: boolean; onClose: () => vo
             >
               <div className="grid grid-cols-2 gap-3">
                 <a
-                  href={`tel:${primaryPhone.tel}`}
+                  href={telLink}
                   className="flex h-14 items-center justify-center gap-2 rounded-card bg-copper-fill font-display font-semibold uppercase tracking-[0.08em] text-white"
                 >
                   <Phone className="size-5" /> Call

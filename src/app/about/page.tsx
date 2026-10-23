@@ -9,12 +9,12 @@ import { LoopVideo } from "@/components/ui/LoopVideo";
 import { PageHero } from "@/components/ui/PageHero";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { broll } from "@/content/media";
-import { mapsLink, primaryPhone, site } from "@/content/site";
+import { mapsLink, telLink, site } from "@/content/site";
 import { clientPhotos } from "@/lib/work";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Loyal Point Construction is a welding and fabrication workshop in Ketu, Lagos, open 24 hours.",
+  description: "Loyal Point Construction is a welding and fabrication workshop in Ketu, Lagos, open 24 hours, taking jobs across Nigeria.",
   alternates: { canonical: "/about" },
 };
 
@@ -74,7 +74,7 @@ export default function AboutPage() {
                 <Clock className="size-5 text-copper" /> {site.hours.label}
               </li>
               <li className="flex items-center gap-3">
-                <MapPin className="size-5 text-copper" /> Ketu, Lagos
+                <MapPin className="size-5 text-copper" /> Ketu, Lagos · Jobs nationwide
               </li>
             </ul>
           </div>
@@ -141,7 +141,7 @@ export default function AboutPage() {
                 <MapPin className="size-5 text-copper-hi" /> Open in Google Maps
               </a>
               <a
-                href={`tel:${primaryPhone.tel}`}
+                href={telLink}
                 className="inline-flex h-[52px] items-center gap-3 rounded-card border border-surface/30 px-6 font-display text-[0.95rem] font-semibold uppercase tracking-[0.08em] text-surface transition-colors hover:border-surface"
               >
                 <Phone className="size-5" /> Call for directions

@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Phone, WhatsApp } from "@/components/ui/Icons";
-import { primaryPhone, site, waLink } from "@/content/site";
+import { telLink, site, waLink } from "@/content/site";
 import { cn } from "@/lib/utils";
 
 /** Sticky Call / WhatsApp bar on small screens, shown once the hero buttons scroll away. */
@@ -32,7 +32,7 @@ export function MobileCallBar() {
     >
       <div className="grid grid-cols-2 gap-2 rounded-[10px] border border-white/10 bg-ink/85 p-2 shadow-[0_18px_40px_-10px_rgb(0_0_0/0.8)] backdrop-blur-xl">
         <a
-          href={`tel:${primaryPhone.tel}`}
+          href={telLink}
           tabIndex={show ? 0 : -1}
           className="flex h-12 items-center justify-center gap-2 rounded-card bg-copper-fill font-display text-[0.95rem] font-semibold uppercase tracking-[0.08em] text-white"
         >

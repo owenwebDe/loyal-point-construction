@@ -212,25 +212,6 @@
       }
     },
     {
-      "id": "containers-tones-of-container",
-      "file": "containers/tones-of-container.jpg",
-      "source": "placeholder",
-      "src": "/media/work/containers-tones-of-container-5291255b.webp",
-      "width": 1600,
-      "height": 1200,
-      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAAwAA4BaJaACdEf/gSkkfyEAAP5A+QeicGb2kZ9C+JFe0GmcDUyiRfFundO5JrT27Xb+BqD7P7pmrmheTTFVWRj9KXMzNJ2Zte33hlOgAAAA",
-      "category": "containers",
-      "alt": "Sample photo, containers work in Nigeria: Tones of container",
-      "credit": {
-        "title": "Tones of container.jpg",
-        "author": "Dflis",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Tones_of_container.jpg",
-        "changes": "resized"
-      }
-    },
-    {
       "id": "decking-concrete-pump",
       "file": "decking/concrete-pump.jpg",
       "source": "placeholder",
@@ -467,7 +448,7 @@
       "height": 1200,
       "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAwAA4BaJZgC7ADR+6fMXXqAAP7zgtAJmqmitkAgLqIRt2K/nMYNfG18A+MMJJmSgZQeNG/m7UDTFFCqDya+6x6vJGTEs8YbLHOwgAA=",
       "category": "pillars-columns",
-      "alt": "Sample photo, pillars & columns work in Nigeria: African Carpenters on Site in Nigeria",
+      "alt": "Sample photo, pillars / columns work in Nigeria: African Carpenters on Site in Nigeria",
       "credit": {
         "title": "African Carpenters on Site in Nigeria.jpg",
         "author": "Ebere Jude",
@@ -486,7 +467,7 @@
       "height": 1600,
       "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoMABAAA4BaJQBOgBuywrNpQqmAAP7vaMFt3Tj/mrYigJM5aikHJBB/ZLBo++qS+Xxe0Bn/tFDLli/YsWEgkjZ065yLNlYAQwOWwAAA",
       "category": "pillars-columns",
-      "alt": "Sample photo, pillars & columns work in Nigeria: Iron bender holding the 16mm",
+      "alt": "Sample photo, pillars / columns work in Nigeria: Iron bender holding the 16mm",
       "credit": {
         "title": "Iron bender holding the 16mm.jpg",
         "author": "Tunesh247",
@@ -505,7 +486,7 @@
       "height": 615,
       "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJYwCdACjItCBAAD+sdgXRE7OVmJgmlW0IBf7gGTAjE81B7w9oQlu8RgJ80EPA+jm9sw4m0R7kqtYAAA=",
       "category": "pillars-columns",
-      "alt": "Sample photo, pillars & columns work in Nigeria: Ironbender fixing a retaining wall reinforcement",
+      "alt": "Sample photo, pillars / columns work in Nigeria: Ironbender fixing a retaining wall reinforcement",
       "credit": {
         "title": "Ironbender fixing a retaining wall reinforcement.jpg",
         "author": "Adavido",
@@ -524,7 +505,7 @@
       "height": 1600,
       "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoMABAAA4BaJYwCdADIboA8AAD9uAOrbPgC8PARoIG/xOd9cRcQTNrpF70qMD0USc3LdDwHbZ0lXh0jiUobjMGZxGGjOyd4gAA=",
       "category": "pillars-columns",
-      "alt": "Sample photo, pillars & columns work in Nigeria: Reinforced Column Base for Fence Foundation",
+      "alt": "Sample photo, pillars / columns work in Nigeria: Reinforced Column Base for Fence Foundation",
       "credit": {
         "title": "Reinforced Column Base for Fence Foundation.jpg",
         "author": "Johnnybam",
@@ -543,7 +524,7 @@
       "height": 1200,
       "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAwAA4BaJaACdACzxJiAvAAA/lQWaKSk5yaXPA2rmf4siH1fPUvIz1tAae850bzCRh0So6MudObaYJrWVxeo1dl9r6VgStHUwAAA",
       "category": "pillars-columns",
-      "alt": "Sample photo, pillars & columns work in Nigeria: Reinforced columns base",
+      "alt": "Sample photo, pillars / columns work in Nigeria: Reinforced columns base",
       "credit": {
         "title": "Reinforced columns base.jpg",
         "author": "Ekeleme Ijeoma",

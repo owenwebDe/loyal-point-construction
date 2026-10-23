@@ -26,8 +26,8 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const service = serviceBySlug((await params).slug);
   if (!service) return {};
   return {
-    title: `${service.name} in Ketu, Lagos`,
-    description: `${service.short} Loyal Point Construction, Ketu, Lagos. Open 24 hours.`,
+    title: `${service.name} in Lagos and across Nigeria`,
+    description: `${service.short} Loyal Point Construction: workshop in Ketu, Lagos, jobs across Nigeria. Open 24 hours.`,
     alternates: { canonical: `/services/${service.slug}` },
   };
 }

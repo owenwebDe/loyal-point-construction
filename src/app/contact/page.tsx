@@ -7,7 +7,7 @@ import { fullAddress, mapsLink, site } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Call or WhatsApp 07030330791 or 08024464209. Loyal Point Construction, Ketu, Lagos. Open 24 hours.",
+  description: "Call 08024464209 or WhatsApp 07030330791. Loyal Point Construction: workshop in Ketu, Lagos, jobs across Nigeria. Open 24 hours.",
   alternates: { canonical: "/contact" },
 };
 
@@ -24,35 +24,41 @@ export default function ContactPage() {
         crumbs={[{ label: "Home", href: "/" }, { label: "Contact" }]}
         aside={
           <ul className="grid gap-3">
-            {site.phones.map((p, n) => (
+            {[
+              { kind: "call" as const, label: "Call us", p: site.callPhone },
+              { kind: "whatsapp" as const, label: "WhatsApp us", p: site.whatsappPhone },
+            ].map(({ kind, label, p }) => (
               <li
-                key={p.tel}
+                key={kind}
                 className="flex flex-col gap-5 rounded-card border border-white/10 bg-white/[0.03] p-6 backdrop-blur-sm sm:flex-row sm:items-center sm:justify-between"
               >
                 <div>
-                  <p className="eyebrow text-[0.75rem] text-steel">Line {n + 1}</p>
-                  <a href={`tel:${p.tel}`} className="display mt-2 block text-[clamp(2rem,3.6vw,2.75rem)] text-white hover:text-copper-hi">
+                  <p className="eyebrow text-[0.75rem] text-steel">{label}</p>
+                  <a
+                    href={kind === "call" ? `tel:${p.tel}` : p.wa}
+                    {...(kind === "whatsapp" ? { target: "_blank", rel: "noopener" } : {})}
+                    className="display mt-2 block text-[clamp(2rem,3.6vw,2.75rem)] text-white hover:text-copper-hi"
+                  >
                     {p.display}
                   </a>
                 </div>
-                <div className="flex gap-2">
+                {kind === "call" ? (
                   <a
                     href={`tel:${p.tel}`}
-                    aria-label={`Call ${p.display}`}
-                    className="inline-flex h-12 items-center gap-2 rounded-card bg-copper-fill px-5 font-display text-[0.875rem] font-semibold uppercase tracking-[0.08em] text-white transition-colors hover:bg-[#9c6239]"
+                    className="inline-flex h-12 items-center justify-center gap-2 rounded-card bg-copper-fill px-6 font-display text-[0.875rem] font-semibold uppercase tracking-[0.08em] text-white transition-colors hover:bg-[#9c6239]"
                   >
                     <Phone className="size-4" /> Call
                   </a>
+                ) : (
                   <a
                     href={p.wa}
                     target="_blank"
                     rel="noopener"
-                    aria-label={`WhatsApp ${p.display}`}
-                    className="inline-flex h-12 items-center gap-2 rounded-card border border-white/20 px-5 font-display text-[0.875rem] font-semibold uppercase tracking-[0.08em] text-white transition-colors hover:border-[#5fd17f]/70"
+                    className="inline-flex h-12 items-center justify-center gap-2 rounded-card border border-white/20 px-6 font-display text-[0.875rem] font-semibold uppercase tracking-[0.08em] text-white transition-colors hover:border-[#5fd17f]/70"
                   >
                     <WhatsApp className="size-4 text-[#5fd17f]" /> WhatsApp
                   </a>
-                </div>
+                )}
               </li>
             ))}
           </ul>

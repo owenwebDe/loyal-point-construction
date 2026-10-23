@@ -114,7 +114,7 @@ export function QuoteForm() {
           value={f.area}
           onChange={set("area")}
           autoComplete="address-level2"
-          placeholder="e.g. Ketu, Magodo, Ikeja"
+          placeholder="e.g. Ikeja, Ibadan, Abuja"
         />
       </label>
       <label className="block sm:col-span-2">

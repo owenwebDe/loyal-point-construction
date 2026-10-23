@@ -52,7 +52,7 @@ const jsonLd = {
   url: site.url,
   image: `${site.url}/opengraph-image.jpg`,
   logo: `${site.url}/icon.png`,
-  telephone: site.phones[0].tel,
+  telephone: site.callPhone.tel,
   email: site.email,
   address: {
     "@type": "PostalAddress",
@@ -61,11 +61,8 @@ const jsonLd = {
     addressRegion: site.address.region,
     addressCountry: site.address.country,
   },
-  contactPoint: site.phones.map((p) => ({
-    "@type": "ContactPoint",
-    telephone: p.tel,
-    contactType: "customer service",
-  })),
+  contactPoint: [{ "@type": "ContactPoint", telephone: site.callPhone.tel, contactType: "customer service" }],
+  areaServed: site.areaServed.map((name) => ({ "@type": "AdministrativeArea", name })),
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
     dayOfWeek: site.hours.days,

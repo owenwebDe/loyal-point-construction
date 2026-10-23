@@ -40,7 +40,7 @@ const CATEGORIES = {
   containers: "Containers",
   "general-repairs": "General Repairs",
   "iron-bending": "Iron Bending",
-  "pillars-columns": "Pillars & Columns",
+  "pillars-columns": "Pillars / Columns",
   beams: "Beams",
   decking: "Decking",
 };

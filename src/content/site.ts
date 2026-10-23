@@ -40,7 +40,8 @@ const services: Service[] = [
   { slug: "containers", title: "Containers", name: "Container Work", short: "Steel container work, fabricated in the workshop.", icon: "container" },
   { slug: "general-repairs", title: "General Repairs", name: "General Repairs", short: "Repairs to doors, gates, burglary proof and other iron work.", icon: "repair" },
   { slug: "iron-bending", title: "Iron Bending", name: "Iron Bending", short: "Iron rods cut and bent to shape for building work.", icon: "bend" },
-  { slug: "pillars-columns", title: "Pillars & Columns", name: "Pillars & Columns", short: "Iron work for pillars and columns.", icon: "column" },
+  // Client, 2026-10-24: pillars and columns are the same thing, so "/" not "&".
+  { slug: "pillars-columns", title: "Pillars / Columns", name: "Pillars / Columns", short: "Iron work for pillars (also called columns).", icon: "column" },
   { slug: "beams", title: "Beams", name: "Beams", short: "Iron work for beams.", icon: "beam" },
   { slug: "decking", title: "Decking", name: "Decking", short: "Iron work for decking.", icon: "deck" },
 ];
@@ -49,15 +50,20 @@ export const site = {
   name: "Loyal Point Construction",
   /** Wording on the client's badge. */
   trade: "Welding and Fabrication",
-  title: "Loyal Point Construction | Iron Works & Fabrication, Ketu, Lagos",
-  description: "Iron works, safety doors, windows and fabrication in Ketu, Lagos.",
+  title: "Loyal Point Construction | Iron Works & Fabrication in Lagos and across Nigeria",
+  description:
+    "Iron works, safety doors, windows and fabrication. Workshop in Ketu, Lagos, taking jobs in Lagos, the South-West, Abuja and across Nigeria.",
   url:
     process.env.NEXT_PUBLIC_SITE_URL ??
     (process.env.VERCEL_PROJECT_PRODUCTION_URL
       ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
       : "http://localhost:3000"),
 
-  phones: [phone("07030330791"), phone("08024464209")],
+  // Client, 2026-10-24: 08024464209 is the call line (not on WhatsApp); 07030330791 is WhatsApp.
+  callPhone: phone("08024464209"),
+  whatsappPhone: phone("07030330791"),
+  // Client, 2026-10-24: work isn't limited to Lagos.
+  areaServed: ["Lagos", "South-West Nigeria", "Abuja", "Nigeria"],
   email: "loyalpointconstruction@gmail.com",
   // From the client, 2026-10-22: "open 24 hours" (every day).
   hours: { label: "Open 24 hours", days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] },
@@ -86,12 +92,12 @@ export const site = {
   home: {
     hero: {
       lines: ["Built Strong.", "Built to Last."],
-      sub: "Iron works, safety doors, windows and fabrication in Ketu, Lagos.",
+      sub: "Iron works, safety doors, windows and fabrication. From our workshop in Ketu, Lagos, to jobs across Nigeria.",
       primary: { label: "Our Services", href: "/services" },
       secondary: { label: "View Our Work", href: "/projects" },
     },
     services: { eyebrow: "Our Services", title: ["Nine services.", "One call away."] },
-    build: { eyebrow: "What We Build", title: ["Made in Ketu.", "Built for Lagos."] },
+    build: { eyebrow: "What We Build", title: ["Made in Ketu.", "Built for Nigeria."] },
     process: {
       eyebrow: "How We Work",
       title: ["From raw steel", "to finished work."],
@@ -126,14 +132,15 @@ export const site = {
 
   aboutPage: {
     eyebrow: "About",
-    title: ["Made in Ketu.", "Built for Lagos."],
-    sub: "Loyal Point Construction is a welding and fabrication workshop in Ketu, Lagos, open 24 hours.",
+    title: ["Made in Ketu.", "Built for Nigeria."],
+    sub: "Loyal Point Construction is a welding and fabrication workshop in Ketu, Lagos, open 24 hours, taking jobs in Lagos, the South-West, Abuja and across Nigeria.",
     workshop: {
       eyebrow: "The Workshop",
       title: ["Where the", "work happens."],
       text: [
         "Every door, frame and grille starts here, in our workshop at 8, Oladega Street, off Segun Salau Street, near Iyana School bus stop in Ketu.",
         "We're open 24 hours. Call before you come, or just stop by.",
+        "The work isn't limited to Lagos. We take on jobs across the South-West, in Abuja and anywhere else in Nigeria.",
       ],
       caption: "The workshop in Ketu. Yes, that's our number on the wall.",
     },
@@ -151,7 +158,7 @@ export const site = {
   contactPage: {
     eyebrow: "Contact",
     title: ["Let's talk", "about your job."],
-    sub: "Open 24 hours. Call, WhatsApp or visit the workshop in Ketu.",
+    sub: "Open 24 hours. Call, WhatsApp or visit the workshop in Ketu. Jobs anywhere in Nigeria.",
     form: {
       eyebrow: "Request a Quote",
       title: ["Tell us what", "you need."],
@@ -165,20 +172,20 @@ export const site = {
     items: [
       { value: 9, label: "Services", icon: "grid" },
       { value: 24, label: "Hours Open", icon: "clock" },
-      { value: "Ketu", label: "Lagos", icon: "pin" },
+      { value: "Nigeria", label: "Jobs Nationwide", icon: "pin" },
       { value: "Custom", label: "Window Designs", icon: "arch" },
     ] satisfies { value: number | string; label: string; icon: IconName }[],
   },
 
   cta: {
     title: "Ready to build? Let's talk.",
-    sub: "Open 24 hours. Call or WhatsApp 07030330791 or 08024464209.",
+    sub: "Open 24 hours. Call 08024464209 or WhatsApp 07030330791. Jobs anywhere in Nigeria.",
     call: "Call Us",
     whatsapp: "WhatsApp Us",
   },
 
   footer: {
-    blurb: "Iron works, safety doors, windows and fabrication in Ketu, Lagos.",
+    blurb: "Iron works, safety doors, windows and fabrication. Workshop in Ketu, Lagos, working across Nigeria.",
   },
 
   // Pre-filled WhatsApp text for the quote buttons.
@@ -186,10 +193,12 @@ export const site = {
   serviceMessage: (service: string) => `Hello Loyal Point Construction, I'd like a quote for ${service}.`,
 } as const;
 
-export const primaryPhone = site.phones[0];
+export const callPhone = site.callPhone;
+export const whatsappPhone = site.whatsappPhone;
+export const telLink = `tel:${callPhone.tel}`;
 
-export const waLink = (text?: string, number = primaryPhone) =>
-  text ? `${number.wa}?text=${encodeURIComponent(text)}` : number.wa;
+export const waLink = (text?: string) =>
+  text ? `${whatsappPhone.wa}?text=${encodeURIComponent(text)}` : whatsappPhone.wa;
 
 export const fullAddress = [
   site.address.street,

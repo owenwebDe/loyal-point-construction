@@ -38,7 +38,7 @@ export function Facts() {
               }
             >
               <LineIcon name={fact.icon} className="size-11 text-copper" />
-              <span className="display mt-4 flex h-[1.2em] items-center text-[3rem] leading-none text-white lg:text-[3.5rem]">
+              <span className="display mt-4 flex h-[1.2em] items-center text-[clamp(1.9rem,10vw,3rem)] leading-none text-white lg:text-[3.5rem]">
                 {typeof fact.value === "number" ? (
                   <CountUp to={fact.value} duration={1.2} mode="roll" easing="expo" />
                 ) : (

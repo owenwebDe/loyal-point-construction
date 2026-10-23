@@ -2,7 +2,7 @@ import Magnet from "@/components/bits/Magnet";
 import { Phone, WhatsApp } from "@/components/ui/Icons";
 import { LoopVideo } from "@/components/ui/LoopVideo";
 import { broll } from "@/content/media";
-import { primaryPhone, site, waLink } from "@/content/site";
+import { telLink, site, waLink } from "@/content/site";
 
 export function Cta() {
   const { title, sub, call, whatsapp } = site.cta;
@@ -40,7 +40,7 @@ export function Cta() {
           <div data-r="fade-up" className="flex flex-col gap-3 sm:flex-row lg:shrink-0">
             <Magnet padding={50} maxOffset={8} magnetStrength={3}>
               <a
-                href={`tel:${primaryPhone.tel}`}
+                href={telLink}
                 className="group flex h-14 w-full items-center justify-center gap-3 rounded-card bg-ink px-7 font-display text-base font-semibold uppercase tracking-[0.08em] text-white shadow-[0_14px_34px_-14px_rgb(0_0_0/0.9)] transition-colors duration-300 hover:bg-black sm:w-auto"
               >
                 <Phone className="size-5 text-copper-hi" />

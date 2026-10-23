@@ -7,7 +7,7 @@ import { site } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "Projects",
-  description: "Safety doors, burglary proof, windows and iron work by Loyal Point Construction in Ketu, Lagos.",
+  description: "Safety doors, burglary proof, windows and iron work by Loyal Point Construction, Lagos and across Nigeria.",
   alternates: { canonical: "/projects" },
 };
 

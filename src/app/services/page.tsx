@@ -11,7 +11,7 @@ import { clientPhotos } from "@/lib/work";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Iron burglary proof, safety doors, windows, containers, repairs, iron bending, pillars, beams and decking. Loyal Point Construction, Ketu, Lagos.",
+    "Iron burglary proof, safety doors, windows, containers, repairs, iron bending, pillars, beams and decking. Loyal Point Construction, Lagos and across Nigeria.",
   alternates: { canonical: "/services" },
 };
 

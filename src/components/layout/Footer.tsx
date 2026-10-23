@@ -9,7 +9,7 @@ export function Footer() {
   const social = [
     { href: site.social.instagram.url, label: `Instagram ${site.social.instagram.handle}`, Icon: Instagram },
     { href: site.social.telegram.url, label: `Telegram ${site.social.telegram.handle}`, Icon: Telegram },
-    { href: site.phones[0].wa, label: `WhatsApp ${site.phones[0].display}`, Icon: WhatsApp },
+    { href: site.whatsappPhone.wa, label: `WhatsApp ${site.whatsappPhone.display}`, Icon: WhatsApp },
   ];
 
   return (
@@ -69,23 +69,20 @@ export function Footer() {
               <MapPin className="mt-0.5 size-5 shrink-0 text-copper" />
               <address className="not-italic leading-relaxed">{fullAddress}</address>
             </li>
-            {site.phones.map((p) => (
-              <li key={p.tel} className="flex items-center gap-3">
-                <Phone className="size-5 shrink-0 text-copper" />
-                <a href={`tel:${p.tel}`} className="inline-block py-1.5 transition-colors hover:text-white">
-                  {p.display}
-                </a>
-                <a
-                  href={p.wa}
-                  target="_blank"
-                  rel="noopener"
-                  aria-label={`WhatsApp ${p.display}`}
-                  className="ml-1 inline-flex min-h-[28px] items-center gap-1.5 rounded-full border border-white/12 px-2.5 py-1 text-xs uppercase tracking-[0.1em] text-white/70 transition-colors hover:border-[#5fd17f]/60 hover:text-white"
-                >
-                  <WhatsApp className="size-3.5 text-[#5fd17f]" /> WhatsApp
-                </a>
-              </li>
-            ))}
+            <li className="flex items-center gap-3">
+              <Phone className="size-5 shrink-0 text-copper" />
+              <a href={`tel:${site.callPhone.tel}`} className="inline-block py-1.5 transition-colors hover:text-white">
+                {site.callPhone.display}
+              </a>
+              <span className="text-xs uppercase tracking-[0.1em] text-steel/70">Calls</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <WhatsApp className="size-5 shrink-0 text-[#5fd17f]" />
+              <a href={site.whatsappPhone.wa} target="_blank" rel="noopener" className="inline-block py-1.5 transition-colors hover:text-white">
+                {site.whatsappPhone.display}
+              </a>
+              <span className="text-xs uppercase tracking-[0.1em] text-steel/70">WhatsApp</span>
+            </li>
             <li className="flex items-center gap-3">
               <Clock className="size-5 shrink-0 text-copper" />
               <span className="text-white/85">{site.hours.label}</span>
@@ -103,7 +100,7 @@ export function Footer() {
       <div className="container-x relative mt-14 lg:mt-20">
         <div className="flex flex-col gap-4 border-t border-white/[0.08] py-6 text-sm text-steel sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {year} {site.name}. Ketu, Lagos.{" "}
+            © {year} {site.name}. Lagos, Nigeria.{" "}
             <Link href="/credits" className="ml-2 inline-block py-1.5 text-steel/80 underline-offset-4 transition-colors hover:text-white hover:underline">
               Photo credits
             </Link>
