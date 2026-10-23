@@ -38,10 +38,10 @@ export function Footer() {
 
         <nav aria-label="Footer">
           <p className="eyebrow mb-6 text-white">Pages</p>
-          <ul className="space-y-3.5">
+          <ul className="space-y-0.5">
             {[{ label: "Home", href: "/" }, ...site.nav].map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="text-[0.9375rem] text-steel transition-colors hover:text-white">
+                <Link href={item.href} className="inline-block py-1.5 text-[0.9375rem] text-steel transition-colors hover:text-white">
                   {item.label}
                 </Link>
               </li>
@@ -51,10 +51,10 @@ export function Footer() {
 
         <nav aria-label="Services">
           <p className="eyebrow mb-6 text-white">Services</p>
-          <ul className="grid grid-cols-2 gap-x-6 gap-y-3.5 sm:grid-cols-1">
+          <ul className="grid grid-cols-2 gap-x-6 gap-y-0.5 sm:grid-cols-1">
             {site.services.map((s) => (
               <li key={s.slug}>
-                <Link href={`/services/${s.slug}`} className="text-[0.9375rem] text-steel transition-colors hover:text-white">
+                <Link href={`/services/${s.slug}`} className="inline-block py-1.5 text-[0.9375rem] text-steel transition-colors hover:text-white">
                   {s.title}
                 </Link>
               </li>
@@ -72,7 +72,7 @@ export function Footer() {
             {site.phones.map((p) => (
               <li key={p.tel} className="flex items-center gap-3">
                 <Phone className="size-5 shrink-0 text-copper" />
-                <a href={`tel:${p.tel}`} className="transition-colors hover:text-white">
+                <a href={`tel:${p.tel}`} className="inline-block py-1.5 transition-colors hover:text-white">
                   {p.display}
                 </a>
                 <a
@@ -80,7 +80,7 @@ export function Footer() {
                   target="_blank"
                   rel="noopener"
                   aria-label={`WhatsApp ${p.display}`}
-                  className="ml-1 inline-flex items-center gap-1.5 rounded-full border border-white/12 px-2.5 py-1 text-xs uppercase tracking-[0.1em] text-white/70 transition-colors hover:border-[#5fd17f]/60 hover:text-white"
+                  className="ml-1 inline-flex min-h-[28px] items-center gap-1.5 rounded-full border border-white/12 px-2.5 py-1 text-xs uppercase tracking-[0.1em] text-white/70 transition-colors hover:border-[#5fd17f]/60 hover:text-white"
                 >
                   <WhatsApp className="size-3.5 text-[#5fd17f]" /> WhatsApp
                 </a>
@@ -92,7 +92,7 @@ export function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Mail className="size-5 shrink-0 text-copper" />
-              <a href={`mailto:${site.email}`} className="break-all transition-colors hover:text-white">
+              <a href={`mailto:${site.email}`} className="inline-block break-all py-1.5 transition-colors hover:text-white">
                 {site.email}
               </a>
             </li>
@@ -104,11 +104,11 @@ export function Footer() {
         <div className="flex flex-col gap-4 border-t border-white/[0.08] py-6 text-sm text-steel sm:flex-row sm:items-center sm:justify-between">
           <p>
             © {year} {site.name}. Ketu, Lagos.{" "}
-            <Link href="/credits" className="ml-2 text-steel/80 underline-offset-4 transition-colors hover:text-white hover:underline">
+            <Link href="/credits" className="ml-2 inline-block py-1.5 text-steel/80 underline-offset-4 transition-colors hover:text-white hover:underline">
               Photo credits
             </Link>
           </p>
-          <a href="#top" className="inline-flex items-center gap-2 transition-colors hover:text-white">
+          <a href="#top" className="inline-flex min-h-[32px] items-center gap-2 transition-colors hover:text-white">
             Back to top <ArrowUp className="size-4" />
           </a>
         </div>

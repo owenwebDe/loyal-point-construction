@@ -72,7 +72,7 @@ export function PageHero({ eyebrow, title, sub, crumbs, background, aside, actio
                     {n > 0 && <li aria-hidden="true" className="text-white/25">/</li>}
                     <li>
                       {c.href ? (
-                        <Link href={c.href} className="transition-colors hover:text-white">
+                        <Link href={c.href} className="inline-block py-1.5 transition-colors hover:text-white">
                           {c.label}
                         </Link>
                       ) : (

@@ -77,7 +77,7 @@ export default function ContactPage() {
                 body: (
                   <>
                     <address className="not-italic leading-relaxed text-white/85">{fullAddress}</address>
-                    <a href={mapsLink} target="_blank" rel="noopener" className="mt-3 inline-block text-sm text-copper-hi underline-offset-4 hover:underline">
+                    <a href={mapsLink} target="_blank" rel="noopener" className="mt-2 inline-block py-1.5 text-sm text-copper-hi underline-offset-4 hover:underline">
                       Open in Google Maps
                     </a>
                   </>
@@ -87,7 +87,7 @@ export default function ContactPage() {
                 Icon: Mail,
                 label: "Email",
                 body: (
-                  <a href={`mailto:${site.email}`} className="text-[0.875rem] text-white/85 [overflow-wrap:anywhere] hover:text-white sm:text-base">
+                  <a href={`mailto:${site.email}`} className="inline-block py-1 text-[0.875rem] text-white/85 [overflow-wrap:anywhere] hover:text-white sm:text-base">
                     {site.email}
                   </a>
                 ),

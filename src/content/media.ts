@@ -45,15 +45,15 @@ export const broll = {
   },
 } satisfies Record<string, Clip>;
 
-/** Stand-in hero footage for services that don't have the client's photos yet. */
+/** Stand-in footage for the tall panel on service pages without the client's photos (4:5 frame). */
 export const serviceClip: Record<string, Clip> = {
-  "iron-burglary": broll.welding,
-  windows: broll.welding,
-  containers: broll.welding,
+  "iron-burglary": broll.weldingPortrait,
+  windows: broll.weldingPortrait,
+  containers: broll.weldingPortrait,
+  "safety-doors": broll.weldingPortrait,
   "general-repairs": broll.grinder,
   "iron-bending": broll.bending,
-  "pillars-columns": broll.bending,
+  "pillars-columns": broll.measuring,
   beams: broll.bending,
-  decking: broll.bending,
-  "safety-doors": broll.welding,
+  decking: broll.measuring,
 };

@@ -6,7 +6,8 @@
     "decking",
     "general-repairs",
     "iron-burglary",
-    "pillars-columns"
+    "pillars-columns",
+    "windows"
   ],
   "items": [
     {
@@ -117,6 +118,25 @@
       }
     },
     {
+      "id": "beams-construction-01",
+      "file": "beams/construction-01.jpg",
+      "source": "placeholder",
+      "src": "/media/work/beams-construction-01-9fbd403c.webp",
+      "width": 1600,
+      "height": 1200,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAwAA4BaJZgCdAEOuNbhAAD+6nblqr9J/DG1XJG/LkuSYl4oOBkHHfzbk6Syea6wgfgZASGCNRrkxWhLBcAA",
+      "category": "beams",
+      "alt": "Sample photo, beams work in Nigeria: Construction 01",
+      "credit": {
+        "title": "Construction 01.jpg",
+        "author": "Isaacayodele32",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Construction_01.jpg",
+        "changes": "resized"
+      }
+    },
+    {
       "id": "beams-construction-workers-in-lagos-nigeria-03",
       "file": "beams/construction-workers-in-lagos-nigeria-03.jpg",
       "source": "placeholder",
@@ -212,6 +232,25 @@
       }
     },
     {
+      "id": "decking-concrete-pump",
+      "file": "decking/concrete-pump.jpg",
+      "source": "placeholder",
+      "src": "/media/work/decking-concrete-pump-711c6311.webp",
+      "width": 1600,
+      "height": 1188,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAwAA4BaJZQC7AEfkphIRTtwAAD+jUCf8Pz/1Wx/LiqItwOFEwpnYz3IJAb9Y7cQtiS+WO9lQsUcBOK8EpZ/PKv/7Oa6AAA=",
+      "category": "decking",
+      "alt": "Sample photo, decking work in Nigeria: Concrete pump",
+      "credit": {
+        "title": "Concrete pump.JPG",
+        "author": "WTF Formwork",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Concrete_pump.JPG",
+        "changes": "resized"
+      }
+    },
+    {
       "id": "decking-construction-workers-in-lagos-nigeria-01",
       "file": "decking/construction-workers-in-lagos-nigeria-01.jpg",
       "source": "placeholder",
@@ -265,6 +304,25 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "source": "https://commons.wikimedia.org/wiki/File:A_Dauntless_Nigerian_Welder_at_Work.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "general-repairs-cutting-metal-pipes-in-sizes-08",
+      "file": "general-repairs/cutting-metal-pipes-in-sizes-08.jpg",
+      "source": "placeholder",
+      "src": "/media/work/general-repairs-cutting-metal-pipes-in-sizes-08-6d0965d9.webp",
+      "width": 1200,
+      "height": 1600,
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoMABAAA4BaJYwCdAED++9Kk+MAAP7CjbHvSpoXX0+PsmJPTtegmh59gB6cX/4ekMWNwF/NN6o/IL2Pp1ZzFprs9bVoV5CYzFWiIkhJYEapRqAA",
+      "category": "general-repairs",
+      "alt": "Sample photo, general repairs work in Nigeria: Cutting metal pipes in sizes 08",
+      "credit": {
+        "title": "Cutting metal pipes in sizes 08.jpg",
+        "author": "Kaycallypse",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cutting_metal_pipes_in_sizes_08.jpg",
         "changes": "resized"
       }
     },
@@ -345,6 +403,25 @@
       }
     },
     {
+      "id": "iron-burglary-her-community-walkathon-60",
+      "file": "iron-burglary/her-community-walkathon-60.jpg",
+      "source": "placeholder",
+      "src": "/media/work/iron-burglary-her-community-walkathon-60-74d4f2c1.webp",
+      "width": 1600,
+      "height": 1067,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAsAA4BaJZQAAv2rWli23IAA/uXuICkDXZSQXVsRbKZwkOzGVE1/a8dP/nm+ZijKw8WvWdN6pDgA",
+      "category": "iron-burglary",
+      "alt": "Sample photo, iron burglary work in Nigeria: Her Community Walkathon 60",
+      "credit": {
+        "title": "Her Community Walkathon 60.jpg",
+        "author": "Onyinyeonuoha",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Her_Community_Walkathon_60.jpg",
+        "changes": "resized"
+      }
+    },
+    {
       "id": "iron-burglary-man-welding-a-metal-gate",
       "file": "iron-burglary/man-welding-a-metal-gate.jpg",
       "source": "placeholder",
@@ -360,6 +437,44 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "source": "https://commons.wikimedia.org/wiki/File:Man_Welding_a_Metal_Gate.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "iron-burglary-swanky",
+      "file": "iron-burglary/swanky.jpg",
+      "source": "placeholder",
+      "src": "/media/work/iron-burglary-swanky-14eaefc9.webp",
+      "width": 1200,
+      "height": 1600,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoMABAAA4BaJZQAFEARN9cz8H8AAP6bdbYLEwV8KKL81UI4Bb3YX6RQOo4XiUjR5f2qJDAWhmArFVnrDeZXpsSKMa6zCJw59IlHAPQ6ncAAAA==",
+      "category": "iron-burglary",
+      "alt": "Sample photo, iron burglary work in Nigeria: Swanky",
+      "credit": {
+        "title": "Swanky.jpg",
+        "author": "Sopulu",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Swanky.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "pillars-columns-african-carpenters-on-site-in-nigeria",
+      "file": "pillars-columns/african-carpenters-on-site-in-nigeria.jpg",
+      "source": "placeholder",
+      "src": "/media/work/pillars-columns-african-carpenters-on-site-in-nigeria-46e797c2.webp",
+      "width": 1600,
+      "height": 1200,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAwAA4BaJZgC7ADR+6fMXXqAAP7zgtAJmqmitkAgLqIRt2K/nMYNfG18A+MMJJmSgZQeNG/m7UDTFFCqDya+6x6vJGTEs8YbLHOwgAA=",
+      "category": "pillars-columns",
+      "alt": "Sample photo, pillars & columns work in Nigeria: African Carpenters on Site in Nigeria",
+      "credit": {
+        "title": "African Carpenters on Site in Nigeria.jpg",
+        "author": "Ebere Jude",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:African_Carpenters_on_Site_in_Nigeria.jpg",
         "changes": "resized"
       }
     },
@@ -436,6 +551,82 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "source": "https://commons.wikimedia.org/wiki/File:Reinforced_columns_base.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "windows-a-local-village-louvre-window",
+      "file": "windows/a-local-village-louvre-window.jpg",
+      "source": "placeholder",
+      "src": "/media/work/windows-a-local-village-louvre-window-a3857d63.webp",
+      "width": 1600,
+      "height": 720,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAgCdASoQAAcAA4BaJYwC7AECwOdRRAjQAP7KNNpM23tOzSWEiTkYB2wLs0MvWpkMienF2vIIzQAA",
+      "category": "windows",
+      "alt": "Sample photo, windows work in Nigeria: A local village Louvre window",
+      "credit": {
+        "title": "A local village Louvre window.jpg",
+        "author": "BayoCine",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:A_local_village_Louvre_window.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "windows-photos-from-wiki-loves-earth-ilorin-42",
+      "file": "windows/photos-from-wiki-loves-earth-ilorin-42.jpg",
+      "source": "placeholder",
+      "src": "/media/work/windows-photos-from-wiki-loves-earth-ilorin-42-73c1cab0.webp",
+      "width": 1600,
+      "height": 1200,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAwAA4BaJYgCdAECld6hAAD8jE5XlU6hT8FnbuXuUGhoIZ+wXkVWtX0zzUgSahnM/A8j5FEAqR27xET37+xrXCNRepwxiAA=",
+      "category": "windows",
+      "alt": "Sample photo, windows work in Nigeria: Photos from wiki loves earth ilorin 42",
+      "credit": {
+        "title": "Photos from wiki loves earth ilorin 42.jpg",
+        "author": "Chic portfolios",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Photos_from_wiki_loves_earth_ilorin_42.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "windows-windows-kaduna-01",
+      "file": "windows/windows-kaduna-01.jpg",
+      "source": "placeholder",
+      "src": "/media/work/windows-windows-kaduna-01-a568427a.webp",
+      "width": 1600,
+      "height": 1200,
+      "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQAAwAA4BaJQBOgB9HkYcEYAAA/sB+xF+j9RVGGmIJgQmA6gIQFQlqrO/v5i9e9Ea7X9kmd9Op4oAfi+fLOW1ePco4g8cTvIe55BxZTAez/DYlYYS/hGhwAAA=",
+      "category": "windows",
+      "alt": "Sample photo, windows work in Nigeria: Windows Kaduna 01",
+      "credit": {
+        "title": "Windows Kaduna 01.jpg",
+        "author": "Anasskoko",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Windows_Kaduna_01.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "windows-windows-kaduna-02",
+      "file": "windows/windows-kaduna-02.jpg",
+      "source": "placeholder",
+      "src": "/media/work/windows-windows-kaduna-02-00fa8642.webp",
+      "width": 1600,
+      "height": 1200,
+      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAQCdASoQAAwAA4BaJYwCdAEOtWy8AAD+QT7Xt1jNS9B0SVbuO4JlYmOR0hDFe4huSB+3R2IQPX0ItgN7ndVvq7yp88ZohM0QayigDVadRBxwTpL8VA8/81bo0AAA",
+      "category": "windows",
+      "alt": "Sample photo, windows work in Nigeria: Windows Kaduna 02",
+      "credit": {
+        "title": "Windows Kaduna 02.jpg",
+        "author": "Anasskoko",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Windows_Kaduna_02.jpg",
         "changes": "resized"
       }
     }

@@ -102,7 +102,7 @@ export default async function ServicePage({ params }: Params) {
       <PageHero
         eyebrow={`Service ${String(index + 1).padStart(2, "0")} / ${String(site.services.length).padStart(2, "0")}`}
         title={[service.name]}
-        sub={service.note ? `${service.short} ${service.note}.` : service.short}
+        sub={service.short}
         crumbs={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: service.title }]}
         aside={aside}
         actions={
