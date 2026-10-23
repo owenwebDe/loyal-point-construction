@@ -6,8 +6,7 @@
     "decking",
     "general-repairs",
     "iron-burglary",
-    "pillars-columns",
-    "windows"
+    "pillars-columns"
   ],
   "items": [
     {
@@ -551,82 +550,6 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "source": "https://commons.wikimedia.org/wiki/File:Reinforced_columns_base.jpg",
-        "changes": "resized"
-      }
-    },
-    {
-      "id": "windows-a-local-village-louvre-window",
-      "file": "windows/a-local-village-louvre-window.jpg",
-      "source": "placeholder",
-      "src": "/media/work/windows-a-local-village-louvre-window-a3857d63.webp",
-      "width": 1600,
-      "height": 720,
-      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAgCdASoQAAcAA4BaJYwC7AECwOdRRAjQAP7KNNpM23tOzSWEiTkYB2wLs0MvWpkMienF2vIIzQAA",
-      "category": "windows",
-      "alt": "Sample photo, windows work in Nigeria: A local village Louvre window",
-      "credit": {
-        "title": "A local village Louvre window.jpg",
-        "author": "BayoCine",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "source": "https://commons.wikimedia.org/wiki/File:A_local_village_Louvre_window.jpg",
-        "changes": "resized"
-      }
-    },
-    {
-      "id": "windows-photos-from-wiki-loves-earth-ilorin-42",
-      "file": "windows/photos-from-wiki-loves-earth-ilorin-42.jpg",
-      "source": "placeholder",
-      "src": "/media/work/windows-photos-from-wiki-loves-earth-ilorin-42-73c1cab0.webp",
-      "width": 1600,
-      "height": 1200,
-      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAwAA4BaJYgCdAECld6hAAD8jE5XlU6hT8FnbuXuUGhoIZ+wXkVWtX0zzUgSahnM/A8j5FEAqR27xET37+xrXCNRepwxiAA=",
-      "category": "windows",
-      "alt": "Sample photo, windows work in Nigeria: Photos from wiki loves earth ilorin 42",
-      "credit": {
-        "title": "Photos from wiki loves earth ilorin 42.jpg",
-        "author": "Chic portfolios",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Photos_from_wiki_loves_earth_ilorin_42.jpg",
-        "changes": "resized"
-      }
-    },
-    {
-      "id": "windows-windows-kaduna-01",
-      "file": "windows/windows-kaduna-01.jpg",
-      "source": "placeholder",
-      "src": "/media/work/windows-windows-kaduna-01-a568427a.webp",
-      "width": 1600,
-      "height": 1200,
-      "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQAAwAA4BaJQBOgB9HkYcEYAAA/sB+xF+j9RVGGmIJgQmA6gIQFQlqrO/v5i9e9Ea7X9kmd9Op4oAfi+fLOW1ePco4g8cTvIe55BxZTAez/DYlYYS/hGhwAAA=",
-      "category": "windows",
-      "alt": "Sample photo, windows work in Nigeria: Windows Kaduna 01",
-      "credit": {
-        "title": "Windows Kaduna 01.jpg",
-        "author": "Anasskoko",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Windows_Kaduna_01.jpg",
-        "changes": "resized"
-      }
-    },
-    {
-      "id": "windows-windows-kaduna-02",
-      "file": "windows/windows-kaduna-02.jpg",
-      "source": "placeholder",
-      "src": "/media/work/windows-windows-kaduna-02-00fa8642.webp",
-      "width": 1600,
-      "height": 1200,
-      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAQCdASoQAAwAA4BaJYwCdAEOtWy8AAD+QT7Xt1jNS9B0SVbuO4JlYmOR0hDFe4huSB+3R2IQPX0ItgN7ndVvq7yp88ZohM0QayigDVadRBxwTpL8VA8/81bo0AAA",
-      "category": "windows",
-      "alt": "Sample photo, windows work in Nigeria: Windows Kaduna 02",
-      "credit": {
-        "title": "Windows Kaduna 02.jpg",
-        "author": "Anasskoko",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Windows_Kaduna_02.jpg",
         "changes": "resized"
       }
     }
