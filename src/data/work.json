@@ -1,0 +1,457 @@
+{
+  "source": "mixed",
+  "placeholderCategories": [
+    "beams",
+    "containers",
+    "decking",
+    "general-repairs",
+    "iron-burglary",
+    "pillars-columns"
+  ],
+  "items": [
+    {
+      "id": "iron-bending-site-foundation",
+      "file": "iron-bending/site-foundation.jpg",
+      "source": "client",
+      "src": "/media/work/iron-bending-site-foundation-0d7fb18b.webp",
+      "width": 750,
+      "height": 1000,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoMABAAA4BaJYwCdAEfh1lQGi0fgAD+mrQcVDSTPI9Ho/1JddiqJNu17jeA3enzQZ1NTbngD6U7z8Fta4pJZNkK4eXtCSysQPhGS8UOQXZAAA==",
+      "category": "iron-bending",
+      "alt": "Iron rods bent and tied for a strip foundation on site, with starter bars for the columns"
+    },
+    {
+      "id": "iron-bending-step-site-work",
+      "file": "iron-bending/step-site-work.jpg",
+      "source": "client",
+      "src": "/media/work/iron-bending-step-site-work-9bf37312.webp",
+      "width": 750,
+      "height": 1000,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoMABAAA4BaJZQCdADhTkUhJBAA/StKiqZCNzRnTI4i1v+XXKCOA5YOYUDxT9o7bZ4bUhcdZ0VeVaP+VQAAAA==",
+      "category": "iron-bending",
+      "alt": "Iron rods tied over formwork for a concrete staircase on site"
+    },
+    {
+      "id": "other-curved-frame-finished",
+      "file": "other/curved-frame-finished.jpg",
+      "source": "client",
+      "src": "/media/work/other-curved-frame-finished-6b49f1e2.webp",
+      "width": 1000,
+      "height": 742,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAwAA4BaJZQCdADw3Zb/vOAA/ubOPgNbHyAbxmf0gWdPAM4GAFA7CMMJPZ/ZOGOfgM0hsQ7mgTBz21s/OwP/EMmItJEcrogAAA==",
+      "category": "other",
+      "alt": "Curved steel frame fitted with panels, outside the Loyal Point workshop in Ketu"
+    },
+    {
+      "id": "other-curved-frame-welded",
+      "file": "other/curved-frame-welded.jpg",
+      "source": "client",
+      "src": "/media/work/other-curved-frame-welded-2f08553f.webp",
+      "width": 1000,
+      "height": 742,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABQAQCdASoQAAwAA4BaJQAAHbCAAP6Iz4tiDAhNZzmyy5BYotkXqzyLAcyek0V/juEJ+VGW7v2/9AAA",
+      "category": "other",
+      "alt": "Curved steel frame, welded and painted blue, at the Loyal Point workshop"
+    },
+    {
+      "id": "safety-doors-door1",
+      "file": "safety-doors/door1.jpg",
+      "source": "client",
+      "src": "/media/work/safety-doors-door1-fe01e870.webp",
+      "width": 780,
+      "height": 1052,
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoMABAAA4BaJYgCdADdSRCbVySAAM4/hte7+rRj7yxw/w2CgxSjoyR8umWfWz7kWPleIZXYPCG1FH9lYepApzrASRxfoIe74822QrANIKyzlxjwAAA=",
+      "category": "safety-doors",
+      "alt": "Glossy brown steel safety door with embossed panels and a chrome handle, made by Loyal Point Construction"
+    },
+    {
+      "id": "safety-doors-door2",
+      "file": "safety-doors/door2.jpg",
+      "source": "client",
+      "src": "/media/work/safety-doors-door2-b3ecdd1e.webp",
+      "width": 780,
+      "height": 1052,
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoMABAAA4BaJQBOgCFlk2+xAAD+76IJYvYbBWc+es1wwrMg0chdcbz8NUQPkYTMFHFKLbcYQERWVdVfrhC6giEwHD6z9BJZl5yN0hi73ojM5RQA",
+      "category": "safety-doors",
+      "alt": "Open double steel safety door with embossed panels, finished in glossy brown at the Loyal Point workshop in Ketu"
+    },
+    {
+      "id": "safety-doors-door3",
+      "file": "safety-doors/door3.jpg",
+      "source": "client",
+      "src": "/media/work/safety-doors-door3-f6d2e834.webp",
+      "width": 780,
+      "height": 1052,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoMABAAA4BaJYwCdAELXa++F4UAAPa8M88IAQR+PuswjPgama840qJ6EVeYM5JzRmy5zl5+LbrZuDgHU08/aMd7gtxXXKHs0jbg0bAsbw98AA==",
+      "category": "safety-doors",
+      "alt": "Dark brown steel safety door with embossed panels, gold handle and hinged frame, made by Loyal Point Construction"
+    },
+    {
+      "id": "safety-doors-welded-door",
+      "file": "safety-doors/welded-door.jpg",
+      "source": "client",
+      "src": "/media/work/safety-doors-welded-door-e9cc73fa.webp",
+      "width": 742,
+      "height": 1000,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoMABAAA4BaJQBOgBjKYVXIAAD9vpPPYjeTbl0qH83kXuEurvzFUHFhKC/z5iAPoWQ/S8xgYmF9fbHx5xkAAA==",
+      "category": "safety-doors",
+      "alt": "Double steel safety door, welded and ready for paint, at the Loyal Point workshop"
+    },
+    {
+      "id": "beams-an-iron-bender",
+      "file": "beams/an-iron-bender.jpg",
+      "source": "placeholder",
+      "src": "/media/work/beams-an-iron-bender-bb01d29b.webp",
+      "width": 1200,
+      "height": 1600,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoMABAAA4BaJbACdLoAAw8Z7oq5cAD+th+d7WWiLLKS2/mzZzf3F6QdvAl1Be6z+coqOCxyVwviB4WcK2N3y9V+9ea2A8wFfvHsTucAAAA=",
+      "category": "beams",
+      "alt": "Sample photo, beams work in Nigeria: An iron bender",
+      "credit": {
+        "title": "An iron bender.jpg",
+        "author": "Goodymeraj",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:An_iron_bender.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "beams-construction-workers-in-lagos-nigeria-03",
+      "file": "beams/construction-workers-in-lagos-nigeria-03.jpg",
+      "source": "placeholder",
+      "src": "/media/work/beams-construction-workers-in-lagos-nigeria-03-b89361a8.webp",
+      "width": 1280,
+      "height": 720,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAkAA4BaJZQCsAD2PhCu0+0AAP1pShAwBhNoeBuy3REeIFprcRvC9yceu6apFDM6D3SRpxbEjgAA",
+      "category": "beams",
+      "alt": "Sample photo, beams work in Nigeria: Construction workers in Lagos,Nigeria 03",
+      "credit": {
+        "title": "Construction workers in Lagos,Nigeria 03.jpg",
+        "author": "OLUWATOBILOBA",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Construction_workers_in_Lagos,Nigeria_03.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "beams-construction-workers-in-lagos-nigeria-04",
+      "file": "beams/construction-workers-in-lagos-nigeria-04.jpg",
+      "source": "placeholder",
+      "src": "/media/work/beams-construction-workers-in-lagos-nigeria-04-4295743f.webp",
+      "width": 960,
+      "height": 1280,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoMABAAA4BaJYgCdAC6hVaig8AAAP5nzHC9JLHskFaNVJFJVSOsMy1RQbkKK2FQC4F7TfwHbELP366GHPt50wIEmfhEL3LRJGU24YAA",
+      "category": "beams",
+      "alt": "Sample photo, beams work in Nigeria: Construction workers in Lagos,Nigeria 04",
+      "credit": {
+        "title": "Construction workers in Lagos,Nigeria 04.jpg",
+        "author": "OLUWATOBILOBA",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Construction_workers_in_Lagos,Nigeria_04.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "beams-early-stage-of-decking-in-building-construction-in",
+      "file": "beams/early-stage-of-decking-in-building-construction-in.jpg",
+      "source": "placeholder",
+      "src": "/media/work/beams-early-stage-of-decking-in-building-construction-in-936813a4.webp",
+      "width": 1600,
+      "height": 1200,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAwAA4BaJQBOj+ADBK7gGc7+AAD8j9Bh3hFT2tm9DuKzRKzaPaqeyTkmP5Q6C617wyaQpZCS8YGHroyZceirl+wI4SAAAAA=",
+      "category": "beams",
+      "alt": "Sample photo, beams work in Nigeria: Early Stage of Decking in Building Construction in Awka",
+      "credit": {
+        "title": "Early Stage of Decking in Building Construction in Awka.jpg",
+        "author": "Johnnybam",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Early_Stage_of_Decking_in_Building_Construction_in_Awka.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "containers-nigerian-container-home",
+      "file": "containers/nigerian-container-home.jpg",
+      "source": "placeholder",
+      "src": "/media/work/containers-nigerian-container-home-bcf15802.webp",
+      "width": 1024,
+      "height": 683,
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAsAA4BaJbACdH8AGZRu7Q7AAP70tpwbYGaK9XhWhWSpKaXS7l2ZMWwFi5EvLzP+CkHcyB427qCI+5cgsMZwDuftMotq6bcXbAseM/s8nIt44AA=",
+      "category": "containers",
+      "alt": "Sample photo, containers work in Nigeria: Nigerian Container Home",
+      "credit": {
+        "title": "Nigerian Container Home.jpg",
+        "author": "Milare99",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Nigerian_Container_Home.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "containers-tones-of-container",
+      "file": "containers/tones-of-container.jpg",
+      "source": "placeholder",
+      "src": "/media/work/containers-tones-of-container-5291255b.webp",
+      "width": 1600,
+      "height": 1200,
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAAwAA4BaJaACdEf/gSkkfyEAAP5A+QeicGb2kZ9C+JFe0GmcDUyiRfFundO5JrT27Xb+BqD7P7pmrmheTTFVWRj9KXMzNJ2Zte33hlOgAAAA",
+      "category": "containers",
+      "alt": "Sample photo, containers work in Nigeria: Tones of container",
+      "credit": {
+        "title": "Tones of container.jpg",
+        "author": "Dflis",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Tones_of_container.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "decking-construction-workers-in-lagos-nigeria-01",
+      "file": "decking/construction-workers-in-lagos-nigeria-01.jpg",
+      "source": "placeholder",
+      "src": "/media/work/decking-construction-workers-in-lagos-nigeria-01-5847fc2f.webp",
+      "width": 1600,
+      "height": 1600,
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQABAAA4BaJQBdgMXhtYLqZwAA/vi6aTb04/kaS7YLa6/ZlRHSWq9MOiNfoAg343boEsDOPBnPwk2LAwuMk4W1BbZx1sdAslDgpIDn0rfIk3AA",
+      "category": "decking",
+      "alt": "Sample photo, decking work in Nigeria: Construction workers in Lagos,Nigeria 01",
+      "credit": {
+        "title": "Construction workers in Lagos,Nigeria 01.jpg",
+        "author": "OLUWATOBILOBA",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Construction_workers_in_Lagos,Nigeria_01.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "decking-decking",
+      "file": "decking/decking.jpg",
+      "source": "placeholder",
+      "src": "/media/work/decking-decking-50382df1.webp",
+      "width": 1200,
+      "height": 1600,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoMABAAA4BaJZwAAxbC8ZFzjiAA/NdoOYT1Rv2a0P3xuGXQ0wva/tdgv0VBMRyOeG1BM7sjgAA=",
+      "category": "decking",
+      "alt": "Sample photo, decking work in Nigeria: DECKING",
+      "credit": {
+        "title": "DECKING.jpg",
+        "author": "Confidence24",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:DECKING.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "general-repairs-a-dauntless-nigerian-welder-at-work",
+      "file": "general-repairs/a-dauntless-nigerian-welder-at-work.jpg",
+      "source": "placeholder",
+      "src": "/media/work/general-repairs-a-dauntless-nigerian-welder-at-work-314bbaac.webp",
+      "width": 1600,
+      "height": 1195,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAwAA4BaJQBOgB4lmQRIzIgA/vaS9fvKPVyQ7N+WTrkSzhNqLW2Frows0EOvap0EcF2Ej6wFCZaFtAaya79zVANKWfyj0WSAAA==",
+      "category": "general-repairs",
+      "alt": "Sample photo, general repairs work in Nigeria: A Dauntless Nigerian Welder at Work",
+      "credit": {
+        "title": "A Dauntless Nigerian Welder at Work.jpg",
+        "author": "Bayurzx",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Dauntless_Nigerian_Welder_at_Work.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "general-repairs-metal-welder",
+      "file": "general-repairs/metal-welder.jpg",
+      "source": "placeholder",
+      "src": "/media/work/general-repairs-metal-welder-1085ed52.webp",
+      "width": 1600,
+      "height": 1067,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAsAA4BaJQBOj+ACcM8BYWw1gAD+wF2kqmJW9YGHXpgCgzxYbT+UcgZ46D2RYnioQqfgv0yHatVZ6AnGG0IXaYXEM6yRAAA=",
+      "category": "general-repairs",
+      "alt": "Sample photo, general repairs work in Nigeria: Metal welder",
+      "credit": {
+        "title": "Metal welder.jpg",
+        "author": "Nongov",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Metal_welder.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "general-repairs-nigerian-welder-at-work",
+      "file": "general-repairs/nigerian-welder-at-work.jpg",
+      "source": "placeholder",
+      "src": "/media/work/general-repairs-nigerian-welder-at-work-367118d1.webp",
+      "width": 1600,
+      "height": 1032,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAoAA4BaJQBWACKpl594rMUwAP5b/x3D+P2obhFpWFwgR6nel+e+w8BqQVogFXhzfjwA42yDarX11MFOB3B7rYiOWA381F0CsLqD9DCgAA==",
+      "category": "general-repairs",
+      "alt": "Sample photo, general repairs work in Nigeria: Nigerian welder at work",
+      "credit": {
+        "title": "Nigerian welder at work.jpg",
+        "author": "NiferO",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Nigerian_welder_at_work.jpg",
+        "changes": "cropped, resized"
+      }
+    },
+    {
+      "id": "iron-burglary-a-welder-making-a-building-gate-02",
+      "file": "iron-burglary/a-welder-making-a-building-gate-02.jpg",
+      "source": "placeholder",
+      "src": "/media/work/iron-burglary-a-welder-making-a-building-gate-02-881409dc.webp",
+      "width": 1600,
+      "height": 913,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAkAA4BaJZgCdADxGOsFEQAA+DLOXcsgq81/bnMEjghgagSyK8KpJ8ID4P/M+vWhWG9ac2n7shxXEAA=",
+      "category": "iron-burglary",
+      "alt": "Sample photo, iron burglary work in Nigeria: A welder making a building gate 02",
+      "credit": {
+        "title": "A welder making a building gate 02.jpg",
+        "author": "Benjamin Blessing",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:A_welder_making_a_building_gate_02.jpg",
+        "changes": "cropped, resized"
+      }
+    },
+    {
+      "id": "iron-burglary-a-welder-man",
+      "file": "iron-burglary/a-welder-man.jpg",
+      "source": "placeholder",
+      "src": "/media/work/iron-burglary-a-welder-man-64e40738.webp",
+      "width": 1600,
+      "height": 1066,
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAsAA4BaJbACdAEPNLS6FYAA/cPsHpKzkCGCCg21QBXhur9/Naw8jmDNI5h7WJROmRfGHhW9ctv/emMUj6EC87WaMPB2JWBxFMuoesJTfOUAAAA=",
+      "category": "iron-burglary",
+      "alt": "Sample photo, iron burglary work in Nigeria: A welder man",
+      "credit": {
+        "title": "A welder man.jpg",
+        "author": "ABDULIUMAR",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:A_welder_man.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "iron-burglary-man-welding-a-metal-gate",
+      "file": "iron-burglary/man-welding-a-metal-gate.jpg",
+      "source": "placeholder",
+      "src": "/media/work/iron-burglary-man-welding-a-metal-gate-7b2a0952.webp",
+      "width": 1200,
+      "height": 1600,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAQCdASoMABAAA4BaJQBOgB5K5QQA/uzYL31A1w8/0ZDLBJ1TNz9E/P9m4IER2sF5ZEGEXBdn9bWqBO3SjQAA",
+      "category": "iron-burglary",
+      "alt": "Sample photo, iron burglary work in Nigeria: Man Welding a Metal Gate",
+      "credit": {
+        "title": "Man Welding a Metal Gate.jpg",
+        "author": "Johnnybam",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Man_Welding_a_Metal_Gate.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "pillars-columns-iron-bender-holding-the-16mm",
+      "file": "pillars-columns/iron-bender-holding-the-16mm.jpg",
+      "source": "placeholder",
+      "src": "/media/work/pillars-columns-iron-bender-holding-the-16mm-4559ca44.webp",
+      "width": 1205,
+      "height": 1600,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoMABAAA4BaJQBOgBuywrNpQqmAAP7vaMFt3Tj/mrYigJM5aikHJBB/ZLBo++qS+Xxe0Bn/tFDLli/YsWEgkjZ065yLNlYAQwOWwAAA",
+      "category": "pillars-columns",
+      "alt": "Sample photo, pillars & columns work in Nigeria: Iron bender holding the 16mm",
+      "credit": {
+        "title": "Iron bender holding the 16mm.jpg",
+        "author": "Tunesh247",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Iron_bender_holding_the_16mm.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "pillars-columns-ironbender-fixing-a-retaining-wall-reinforcement",
+      "file": "pillars-columns/ironbender-fixing-a-retaining-wall-reinforcement.jpg",
+      "source": "placeholder",
+      "src": "/media/work/pillars-columns-ironbender-fixing-a-retaining-wall-reinforcement-29e8c7db.webp",
+      "width": 1045,
+      "height": 615,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJYwCdACjItCBAAD+sdgXRE7OVmJgmlW0IBf7gGTAjE81B7w9oQlu8RgJ80EPA+jm9sw4m0R7kqtYAAA=",
+      "category": "pillars-columns",
+      "alt": "Sample photo, pillars & columns work in Nigeria: Ironbender fixing a retaining wall reinforcement",
+      "credit": {
+        "title": "Ironbender fixing a retaining wall reinforcement.jpg",
+        "author": "Adavido",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Ironbender_fixing_a_retaining_wall_reinforcement.jpg",
+        "changes": "cropped, resized"
+      }
+    },
+    {
+      "id": "pillars-columns-reinforced-column-base-for-fence-foundation",
+      "file": "pillars-columns/reinforced-column-base-for-fence-foundation.jpg",
+      "source": "placeholder",
+      "src": "/media/work/pillars-columns-reinforced-column-base-for-fence-foundation-63956cdc.webp",
+      "width": 1200,
+      "height": 1600,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoMABAAA4BaJYwCdADIboA8AAD9uAOrbPgC8PARoIG/xOd9cRcQTNrpF70qMD0USc3LdDwHbZ0lXh0jiUobjMGZxGGjOyd4gAA=",
+      "category": "pillars-columns",
+      "alt": "Sample photo, pillars & columns work in Nigeria: Reinforced Column Base for Fence Foundation",
+      "credit": {
+        "title": "Reinforced Column Base for Fence Foundation.jpg",
+        "author": "Johnnybam",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Reinforced_Column_Base_for_Fence_Foundation.jpg",
+        "changes": "resized"
+      }
+    },
+    {
+      "id": "pillars-columns-reinforced-columns-base",
+      "file": "pillars-columns/reinforced-columns-base.jpg",
+      "source": "placeholder",
+      "src": "/media/work/pillars-columns-reinforced-columns-base-c91cd48a.webp",
+      "width": 1600,
+      "height": 1200,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAwAA4BaJaACdACzxJiAvAAA/lQWaKSk5yaXPA2rmf4siH1fPUvIz1tAae850bzCRh0So6MudObaYJrWVxeo1dl9r6VgStHUwAAA",
+      "category": "pillars-columns",
+      "alt": "Sample photo, pillars & columns work in Nigeria: Reinforced columns base",
+      "credit": {
+        "title": "Reinforced columns base.jpg",
+        "author": "Ekeleme Ijeoma",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Reinforced_columns_base.jpg",
+        "changes": "resized"
+      }
+    }
+  ],
+  "featured": [
+    {
+      "id": "safety-doors-door2",
+      "title": "Double Safety Door"
+    },
+    {
+      "id": "other-curved-frame-finished",
+      "title": "Curved Steel Frame"
+    },
+    {
+      "id": "iron-bending-site-foundation",
+      "title": "Foundation Iron Work"
+    }
+  ]
+}
